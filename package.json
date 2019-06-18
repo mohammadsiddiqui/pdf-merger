@@ -1,0 +1,34 @@
+{
+  "name": "pdf-merger-app",
+  "version": "0.1.1",
+  "description": "A desktop app to merge PDFs into a single PDF easily.",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "mege-pdf.siddiquipro.com",
+    "mac": {
+      "category": "mege-pdf.siddiquipro.com"
+    }
+  },
+  "author": "Siddiqui",
+  "license": "Apache-2.0",
+  "keywords": [
+    "pdf",
+    "merge",
+    "pdf-merger",
+    "desktop-app",
+    "app"
+  ],
+  "devDependencies": {
+    "electron-packager": "^7.0.2",
+    "electron-prebuilt": "^1.1.1",
+    "electron-builder": "^20.43.0"
+  },
+  "dependencies": {
+    "easy-pdf-merge": "^0.1.1"
+  }
+}
