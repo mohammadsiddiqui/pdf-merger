@@ -2,3 +2,4 @@ node_modules
 npm-debug.log
 PDF Merger-linux-ia32/
 dist
+package-lock.json
